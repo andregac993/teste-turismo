@@ -7,7 +7,6 @@ export default function Home() {
     const {hotelList} = UseHome()
   return (
     <div className=" items-center justify-between min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] w-['100%'] ">
-
             {
                 hotelList.map((hotel) => (
                     <Card className="w-[350px]" key={hotel.id}>
